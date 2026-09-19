@@ -1,0 +1,43 @@
+{
+  "name": "@cheerio/website",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "npm run build:api && astro build",
+    "build:api": "typedoc",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "^4.3.0",
+    "@astrojs/react": "^4.3.0",
+    "@astrojs/rss": "^4.0.15",
+    "@astrojs/sitemap": "^3.7.0",
+    "@codesandbox/sandpack-react": "^2.19.0",
+    "@docsearch/css": "^4.5.3",
+    "@docsearch/js": "^4.5.3",
+    "@tailwindcss/vite": "^4.1.8",
+    "astro": "^5.16.14",
+    "hastscript": "^9.0.1",
+    "marked": "^17.0.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.2.3",
+    "remark-directive": "^4.0.0",
+    "tailwindcss": "^4.1.8",
+    "unist-util-visit": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.9",
+    "@types/react-dom": "^19.1.0",
+    "typedoc": "^0.28.5",
+    "typedoc-plugin-markdown": "^4.6.3",
+    "typedoc-plugin-mdn-links": "^5.0.1",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=20.18.1"
+  }
+}
