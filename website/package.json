@@ -24,14 +24,14 @@
     "hastscript": "^9.0.1",
     "marked": "^17.0.1",
     "react": "^19.1.0",
-    "react-dom": "^19.2.3",
+    "react-dom": "^19.3.0",
     "remark-directive": "^4.0.0",
     "tailwindcss": "^4.1.8",
     "unist-util-visit": "^5.1.0"
   },
   "devDependencies": {
     "@types/react": "^19.2.9",
-    "@types/react-dom": "^19.1.0",
+    "@types/react-dom": "^19.3.0",
     "typedoc": "^0.28.5",
     "typedoc-plugin-markdown": "^4.6.3",
     "typedoc-plugin-mdn-links": "^5.0.1",
